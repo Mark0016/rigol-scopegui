@@ -25,12 +25,12 @@ class path():
         return path
 
     def udefault():
-        path = os.path.expanduser('~/.rigol-scopegui/default.scopecfg')
+        path = os.path.join(os.path.expanduser('~'),'.rigol-scopegui','default.scopecfg')
         if os.path.exists(path):
             return path
         else:
             try:
-                os.mkdir(os.path.expanduser('~/.rigol-scopegui'))
+                os.mkdir(os.path.join(os.path.expanduser('~'),'.rigol-scopegui'))
             except FileExistsError:
                 pass
             shutil.copyfile('default.scopecfg', path)
