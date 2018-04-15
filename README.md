@@ -1,5 +1,6 @@
 # rigol-scopegui
 A GUI application for controlling oscilloscopes over the network (tested on RIGOL MSO1000Z series)
+It can display the signals being measured by the oscilloscope and change the most common settings.
 
 Dependencies:
 
