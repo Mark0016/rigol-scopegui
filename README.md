@@ -3,6 +3,8 @@ A GUI application for controlling oscilloscopes over the network (tested on RIGO
 
 It can display the signals being measured by the oscilloscope and change the most common settings.
 
+EXECUTE gui.py TO RUN ("python3 gui.py" in CLI or just make it executable)
+
 Dependencies:
 
 Python 3   (>=3.1)
