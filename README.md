@@ -21,3 +21,5 @@ It is capable of controlling oscilloscopes over the network using IPv4.
 It was tested on a RIGOL MSO1074Z-S oscilloscope so it should work on the DS/MSO1000Z series.
 I also briefly tested it on an MSO2072A and it worked fine (except channel 3 and 4 since it's a 2 channel scope) so it might work whit others as well.
 I tested it on Debian, Ubuntu and Fedora tho it should work on any OS that supports it's dependencies.
+
+I also created a tool for setting up the built-in source: rigol-sourcegui https://github.com/Mark0016/rigol-sourcegui
