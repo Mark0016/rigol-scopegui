@@ -1,0 +1,60 @@
+[main]
+
+#ip = None
+#autosetup = True
+
+[channel1]
+
+#bwl = False
+#fineadj = False
+#coupling = DC
+#probe = 1
+#scale = 0
+#offset = 0
+
+[channel2]
+
+#bwl = False
+#fineadj = False
+#coupling = DC
+#probe = 1
+#scale = 0
+#offset = 0
+
+[channel3]
+
+#bwl = False
+#fineadj = False
+#coupling = DC
+#probe = 1
+#scale = 0
+#offset = 0
+
+[channel4]
+
+#bwl = False
+#fineadj = False
+#coupling = DC
+#probe = 1
+#scale = 0
+#offset = 0
+
+[timebase]
+
+#mode = YT
+#scale = 0
+#offset = 0
+#xchannel = 1
+#ychannel = 2
+
+[trigger]
+
+#mode = edge
+#sweep = normal
+#holdoff = 0.00000016
+#nrej = False
+
+[edge]
+#level = 0
+#edge = POS
+#source = 1
